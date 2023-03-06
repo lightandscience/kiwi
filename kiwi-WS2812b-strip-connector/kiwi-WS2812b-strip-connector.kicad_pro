@@ -45,11 +45,20 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "courtyards_overlap|115236497|69641801|674ef338-dbdb-4add-92b5-a074991a7cd8|b6379afa-5495-4e80-b5f3-071b3daf0294",
+        "courtyards_overlap|146662788|69667201|1487b53f-e5af-47bf-adcb-1268c2b16a2e|4a5b4dfc-862e-4263-a664-6d5458f30370"
+      ],
       "meta": {
         "version": 2
       },
@@ -112,8 +121,18 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.5,
+        1.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -412,7 +431,7 @@
   },
   "sheets": [
     [
-      "0b32bf76-7137-4ce1-bd71-b9e68eb5b8d9",
+      "40669fb9-ecc1-4e2c-9d55-f67da8d2c8bb",
       ""
     ]
   ],
