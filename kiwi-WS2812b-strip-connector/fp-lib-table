@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "WS2812B_connector")(type "KiCad")(uri "${KIPRJMOD}/../dodo/WS2812B_strip/WS2812B_connector.pretty")(options "")(descr ""))
+  (lib (name "Connector_USB_Extra")(type "KiCad")(uri "${KIPRJMOD}/../dodo/USB_Connectors/Connector_USB_Extra.pretty")(options "")(descr ""))
 )
