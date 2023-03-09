@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "RP_Pico_devboard")(type "KiCad")(uri "${KIPRJMOD}/../dodo/RP_Pico_devboard/RP_Pico_devboard.pretty")(options "")(descr ""))
+  (lib (name "Connector_USB_Extra")(type "KiCad")(uri "${KIPRJMOD}/../dodo/USB_Connectors/Connector_USB_Extra.pretty")(options "")(descr ""))
+  (lib (name "Microphone")(type "KiCad")(uri "${KIPRJMOD}/../dodo/Microphone/Microphone.pretty")(options "")(descr ""))
+)
